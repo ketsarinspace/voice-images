@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* width: 100vw;
+  height: 90vh; */
+}
+
+img {
+  width: 180px;
+  height: 180px;
+
+  margin: 10px;
+  box-shadow: 0 5px 5px 0 #515154;
+
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+img:hover {
+  transition: 1s;
+  transform: translate(6px, -6px);
+}
+
+.tiltle {
+  color: #464646;
+  font-family: cursive;
+  font-size: 3em;
+
+  margin-bottom: 0;
+}
